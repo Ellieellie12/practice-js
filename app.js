@@ -1,4 +1,3 @@
-// console.log('hello world')
 
 // let x = 25
 // x = 100 
@@ -8,9 +7,16 @@
 // console.log(x)
 // const stays the same (constant)
 
-let x = 2
-x = 5
+// let x = 2
+// x = 5
 
-console.log(x)
+// console.log(x)
 
 // you can reassign let 
+
+
+
+//JAVASCRIPT ARRAY
+
+let movies = ['Clueless', 'Avatar', 'The Bee Movie']
+console.log(movies)
