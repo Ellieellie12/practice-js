@@ -28,3 +28,8 @@
 // ADDING ELEMENTS TO AN ARRAY 
 
 let movies = ['Clueless', 'Avatar', 'The Bee Movie']
+
+movies.push('Home')
+
+console.log(movies)
+// the push method is available on all arrays it is built in. the push method adds the specified elements to the end of an array and then returns the NEW LENGTH of the array.
