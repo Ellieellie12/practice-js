@@ -16,7 +16,15 @@
 
 
 
-//JAVASCRIPT ARRAY
+//ACCESSING ELEMENTS IN AN ARRAY
+
+// let movies = ['Clueless', 'Avatar', 'The Bee Movie']
+// let firstMovie = movies[0]
+// console.log(firstMovie)
+
+// accessing the first movie in the array by accessing it by index 0. Arrays do not go start off at 1 they start off at 0
+
+
+// ADDING ELEMENTS TO AN ARRAY 
 
 let movies = ['Clueless', 'Avatar', 'The Bee Movie']
-console.log(movies)
