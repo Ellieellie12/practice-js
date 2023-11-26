@@ -42,10 +42,38 @@
 
 //ADDING ELEMENTS TO AN ARRAY (to the front of the array )
 
-let movies = ['Clueless', 'Avatar', 'The Bee Movie']
+// let movies = ['Clueless', 'Avatar', 'The Bee Movie']
 
-movies.unshift('Home')
+// movies.unshift('Home')
 
-console.log(movies)
+// console.log(movies)
 
 // the unshift method adds an element to the front of an array
+
+
+// REMOVE ELEMENTS FROM AN ARRAY 
+
+// let movies = ['Clueless', 'Avatar', 'The Bee Movie']
+// console.log(movies, ' <- movies before pop')
+
+// let removedMovie = movies.pop()
+
+// console.log(removedMovie, 'is the movie removed')
+// console.log(movies, ' <- movies after pop')
+
+// The pop method only removes the element at the end of the array.
+
+
+// let movies = ['Clueless', 'Avatar', 'The Bee Movie']
+
+// let removedMovies = movies.splice(0,2, 'Home', 'Story')
+
+// console.log(movies)
+
+// you can use splice to add to an array
+
+
+
+
+
+
