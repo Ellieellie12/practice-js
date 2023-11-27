@@ -102,9 +102,9 @@
 
   // COPY ALLL OR SOME OF AN ARRAY USING SLICE!!!
   
-  let movies = ['Clueless', 'Avatar', 'The Bee Movie', 'Alien']
-  let lastTwoMovies = movies.slice(1,3)
-  console.log(lastTwoMovies)
+  // let movies = ['Clueless', 'Avatar', 'The Bee Movie', 'Alien']
+  // let lastTwoMovies = movies.slice(1,3)
+  // console.log(lastTwoMovies)
 
   //slice() <- makes a copy of the entire array
   //slice(start)
@@ -112,7 +112,18 @@
   //slice(1,3) <-- start at index one and going up to but not including index 3
 
 
+//COPY ALL OF AN ARRAY USING THE SPREAD OPERATER
+
+  // let movies = ['Clueless', 'Avatar', 'The Bee Movie']
+  // let moviesCopy = [...movies]
+  // console.log(moviesCopy)
 
 
+//COPY ALL OF AN ARRAY AND INSERT
+
+  let movies = ['Clueless', 'Avatar', 'The Bee Movie']
+  let moreMovies = ['Alien', ...movies, 'Robots']
+
+  console.log(moreMovies)
 
 
