@@ -82,6 +82,8 @@
   
 // });
 
+// you CANT break out of a forEach loop
+
 // const nums = [1, 2, 3, 4, 5]
 
 // nums.forEach(function(num) {
@@ -95,8 +97,9 @@ const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 for (let num of nums) {
   console.log(num)
-  if (num === 10) break
+  if (num === 7) break
 }
+
 
 
 
