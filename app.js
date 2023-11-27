@@ -82,7 +82,7 @@
   
 // });
 
-// you CANT break out of a forEach loop
+// you CANT use break to exit out of a forEach loop
 
 // const nums = [1, 2, 3, 4, 5]
 
