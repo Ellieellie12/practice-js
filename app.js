@@ -92,15 +92,24 @@
 
 // FOR OF LOOP
 
-// let movies = ['Clueless', 'Avatar', 'The Bee Movie']
-const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-for (let num of nums) {
-  console.log(num)
-  if (num === 7) break
-}
+// for (let num of nums) {
+  //   console.log(num)
+  //   if (num === 7) break
+  // }
 
 
+  // COPY ALLL OR SOME OF AN ARRAY USING SLICE!!!
+  
+  let movies = ['Clueless', 'Avatar', 'The Bee Movie', 'Alien']
+  let lastTwoMovies = movies.slice(1,3)
+  console.log(lastTwoMovies)
+
+  //slice() <- makes a copy of the entire array
+  //slice(start)
+  //slice(start, end) <- start ay
+  //slice(1,3) <-- start at index one and going up to but not including index 3
 
 
 
