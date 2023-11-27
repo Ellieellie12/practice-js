@@ -121,9 +121,23 @@
 
 //COPY ALL OF AN ARRAY AND INSERT
 
+  // let movies = ['Clueless', 'Avatar', 'The Bee Movie']
+  // let moreMovies = ['Alien', ...movies, 'Robots']
+
+  // console.log(moreMovies)
+
+
+
+  // CREATE A SINGLE STRING FROM AN ARRAY
+
   let movies = ['Clueless', 'Avatar', 'The Bee Movie']
-  let moreMovies = ['Alien', ...movies, 'Robots']
 
-  console.log(moreMovies)
+  // let movieStr = movies.join()
+  // console.log(movieStr)
 
+  let movieStr = movies.join('---')
+  console.log(movieStr)
 
+  //you can add symbols/ whatever you want to separate between what you have in your array
+
+  
