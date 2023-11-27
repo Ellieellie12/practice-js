@@ -73,6 +73,33 @@
 // you can use splice to add to an array
 
 
+// ITERATE OVER ALL OF THE ELEMENTS IN AN ARRAY
+
+// let movies = ['Clueless', 'Avatar', 'The Bee Movie']
+
+// movies.forEach(movie => {
+//   console.log('The current movie is ' + movie)
+  
+// });
+
+// const nums = [1, 2, 3, 4, 5]
+
+// nums.forEach(function(num) {
+//   console.log(num)
+// })
+
+// FOR OF LOOP
+
+// let movies = ['Clueless', 'Avatar', 'The Bee Movie']
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for (let num of nums) {
+  console.log(num)
+  if (num === 10) break
+}
+
+
+
 
 
 
