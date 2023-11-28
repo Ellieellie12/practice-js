@@ -62,15 +62,28 @@
 
 //arrow function
 
-const add = (a, b) => a + b
+// const add = (a, b) => a + b
 
-let nums = [3, 5, 6, 9]
-
-
-nums.forEach(function(num) {
-  console.log(num)
-})
+// let nums = [3, 5, 6, 9]
 
 
-nums.forEach(num => console.log(num))
+// nums.forEach(function(num) {
+//   console.log(num)
+// })
+
+
+// nums.forEach(num => console.log(num))
 // arrow functions are good for forEach functions
+
+//function EXAMPLE
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+console.log(getRandomInt(1, 10))
+
+
+// Math.floor takes away the decimal and rounds the number down
+// math.random is taking a random number between 0 and 0.9999999 repeated
+// this is your go to function for determining a random value between two set integers random
