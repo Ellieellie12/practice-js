@@ -130,14 +130,35 @@
 
   // CREATE A SINGLE STRING FROM AN ARRAY
 
-  let movies = ['Clueless', 'Avatar', 'The Bee Movie']
+  // let movies = ['Clueless', 'Avatar', 'The Bee Movie']
 
   // let movieStr = movies.join()
   // console.log(movieStr)
 
-  let movieStr = movies.join('---')
-  console.log(movieStr)
+  // let movieStr = movies.join('---')
+  // console.log(movieStr)
 
   //you can add symbols/ whatever you want to separate between what you have in your array
 
-  
+
+
+  // LOOPING THROUGH AN ARRAY WITH A FOR LOOP 
+
+  // let numbers = [2, 3, 1]
+  // let sum = 0
+
+  // for(let idx = 0; idx < numbers.length; idx++) {
+  //   sum += numbers[idx]
+  // }
+
+  // imperative^
+
+  // numbers.forEach(num => {
+  //   sum += num
+  // })
+
+  //declarative^
+
+  // console.log(sum)
+
+
