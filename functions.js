@@ -31,13 +31,13 @@
 
 // FUNCTION
 
-function sayHelloDeclaration(name, location) {
-  console.log('Hello ' + name + '! You live in ' + location + '!')
-}
-sayHelloDeclaration('Maggie', 'Paris, Texas')
+// function sayHelloDeclaration(name, location) {
+//   console.log('Hello ' + name + '! You live in ' + location + '!')
+// }
+// sayHelloDeclaration('Maggie', 'Paris, Texas')
 
 //arguments are going to change ^
-// DECLARATIONS CAN BE INVOKED ABOVE OR UNDER THE FUNCTION/ EXPRESSIONS CAN NOT THEY CAN BE INVOKED BELOW THE FUNCTION EXPRESSION
+// DECLARATIONS CAN BE INVOKED ABOVE OR BELOW THE FUNCTION/ EXPRESSIONS CAN NOT THEY CAN BE INVOKED BELOW THE FUNCTION EXPRESSION
 
 // hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables, classes,and imports to the top of their scope, prior to execution of the code
 
@@ -52,3 +52,25 @@ sayHelloDeclaration('Maggie', 'Paris, Texas')
 // sayHello(argument)
 
 // The parameter and the argument line up
+
+
+// function add(a, b) {
+//   return a + b
+// }
+// console.log(add(2, 6))
+
+
+//arrow function
+
+const add = (a, b) => a + b
+
+let nums = [3, 5, 6, 9]
+
+
+nums.forEach(function(num) {
+  console.log(num)
+})
+
+
+nums.forEach(num => console.log(num))
+// arrow functions are good for forEach functions
