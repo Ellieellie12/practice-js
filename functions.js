@@ -91,12 +91,13 @@
 
 //function EXAMPLE 2:
 
-function addNums(numA, numB) {
-  return numA + numB
-}
+// function addNums(numA, numB) {
+//   return numA + numB
+// }
 
-const total = addNums(2, 4)
+// const total = addNums(2, 4)
 
-console.log(total)
+// console.log(total)
 
-// 2 and 4 in this example are the arguments for the function while numA and numB are the parameters(placeholders) in the function. Be mindful to how many arguments you put
+// 2 and 4 in this example are the arguments for the function while numA and numB are the parameters(placeholders) in the function. Be mindful to how many arguments you put if we have fewer arguments are passed than parameter defined, the parameters variables without a matching argument would be undefined.
+
