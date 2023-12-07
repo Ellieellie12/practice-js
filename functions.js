@@ -103,7 +103,7 @@
 
 
 
-// function EXAMPLE 3: REST PARAMETERS!!
+// function EXAMPLE 3: REST PARAMETERS!! when you have extra arguments!!
 function getPointsScored(...times) {
   // times will be an array holding the args
   // Perfect use case for the Array.reduce method, but that's another day.
