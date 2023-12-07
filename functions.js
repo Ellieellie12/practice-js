@@ -104,22 +104,31 @@
 
 
 // function EXAMPLE 3: REST PARAMETERS!! when you have extra arguments!!
-function getPointsScored(...times) {
+// function getPointsScored(...times) {
   // times will be an array holding the args
   // Perfect use case for the Array.reduce method, but that's another day.
-  let totalPoints = 0
-  times.forEach(function(time) {
-    if (time < 30) {
-      totalPoints += 100
-    } else if (time < 60) {
-      totalPoints += 75
-    } else {
-      totalPoints += 25
-    }
-  })
-  return totalPoints
-}
+//   let totalPoints = 0
+//   times.forEach(function(time) {
+//     if (time < 30) {
+//       totalPoints += 100
+//     } else if (time < 60) {
+//       totalPoints += 75
+//     } else {
+//       totalPoints += 25
+//     }
+//   })
+//   return totalPoints
+// }
 	
-const points = getPointsScored(16, 99, 32, 60)
+// const points = getPointsScored(16, 99, 32, 60)
 
 //The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
+
+
+//function EXAMPLE 4
+function computeArea(width, height) {
+  let area = width * height
+  return 'The area of rectangle with a width of ' + width + ' and a height of ' + height + ' is ' + area + ' square units.'
+}
+
+console.log(computeArea(5,25))
