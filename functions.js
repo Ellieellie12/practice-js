@@ -122,3 +122,4 @@ function getPointsScored(...times) {
 	
 const points = getPointsScored(16, 99, 32, 60)
 
+//The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
