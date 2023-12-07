@@ -77,13 +77,26 @@
 
 //function EXAMPLE
 
-function getRandomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min)
-}
+// function getRandomInt(min, max) {
+//   return Math.floor(Math.random() * (max - min + 1) + min)
+// }
 
-console.log(getRandomInt(1, 10))
+// console.log(getRandomInt(1, 10))
 
 
 // Math.floor takes away the decimal and rounds the number down
 // math.random is taking a random number between 0 and 0.9999999 repeated
 // this is your go to function for determining a random value between two set integers random
+
+
+//function EXAMPLE 2:
+
+function addNums(numA, numB) {
+  return numA + numB
+}
+
+const total = addNums(2, 4)
+
+console.log(total)
+
+// 2 and 4 in this example are the arguments for the function while numA and numB are the parameters(placeholders) in the function. Be mindful to how many arguments you put
