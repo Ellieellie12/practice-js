@@ -101,3 +101,24 @@
 
 // 2 and 4 in this example are the arguments for the function while numA and numB are the parameters(placeholders) in the function. Be mindful to how many arguments you put if we have fewer arguments are passed than parameter defined, the parameters variables without a matching argument would be undefined.
 
+
+
+// function EXAMPLE 3: REST PARAMETERS!!
+function getPointsScored(...times) {
+  // times will be an array holding the args
+  // Perfect use case for the Array.reduce method, but that's another day.
+  let totalPoints = 0
+  times.forEach(function(time) {
+    if (time < 30) {
+      totalPoints += 100
+    } else if (time < 60) {
+      totalPoints += 75
+    } else {
+      totalPoints += 25
+    }
+  })
+  return totalPoints
+}
+	
+const points = getPointsScored(16, 99, 32, 60)
+
