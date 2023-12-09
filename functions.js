@@ -126,9 +126,13 @@
 
 
 //function EXAMPLE 4
-function computeArea(width, height) {
-  let area = width * height
-  return 'The area of rectangle with a width of ' + width + ' and a height of ' + height + ' is ' + area + ' square units.'
-}
+// function computeArea(width, height) {
+//   let area = width * height
+//   return 'The area of rectangle with a width of ' + width + ' and a height of ' + height + ' is ' + area + ' square units.'
+// }
 
-console.log(computeArea(5,25))
+// console.log(computeArea(5,25))
+
+
+//REACT
+// dev: vite when you run npm run dev
