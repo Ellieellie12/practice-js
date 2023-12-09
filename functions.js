@@ -136,3 +136,10 @@
 
 //REACT
 // dev: vite when you run npm run dev
+
+// the line of code that causes all the components to be rendered for the first time is:
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
