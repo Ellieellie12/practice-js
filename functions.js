@@ -146,3 +146,6 @@
 
 
 // map: The map() method of Array instances creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+// DOM - Document Object Model is a programming interface for web documents.
+// When state changes in a component, that component, and all of its children components are rendered.
